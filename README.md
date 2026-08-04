@@ -2,7 +2,6 @@
 
 -> Project Title
 Predictive Modeling Using Machine Learning for Banking Fraud Detection
->>>>>>> ddd1d3e (Improve README with professional project documentation)
 
 -> Project Overview
 This project was completed as part of Week 2 of a Data Science Internship. The main objective was to build a supervised machine learning model that can predict whether a banking transaction is fraudulent or non-fraudulent. The project follows a complete end-to-end machine learning workflow, starting from data collection and preprocessing to model training, evaluation, and visualization.
