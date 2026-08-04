@@ -1,20 +1,20 @@
-# Data Science Internship Week 2
+-> Data Science Internship Week 2
 
-## Project Title
+-> Project Title
 Predictive Modeling Using Machine Learning for Banking Fraud Detection
 >>>>>>> ddd1d3e (Improve README with professional project documentation)
 
-## Project Overview
+-> Project Overview
 This project was completed as part of Week 2 of a Data Science Internship. The main objective was to build a supervised machine learning model that can predict whether a banking transaction is fraudulent or non-fraudulent. The project follows a complete end-to-end machine learning workflow, starting from data collection and preprocessing to model training, evaluation, and visualization.
 
-## Objective
+-> Objective
 The purpose of this project is to demonstrate how machine learning can be applied to real-world banking data for fraud detection. The model is designed to classify transactions into two categories:
 - Fraudulent
 - Non-fraudulent
 
 This type of solution is highly relevant in the financial sector because it helps organizations detect suspicious activities and reduce financial losses.
 
-## Dataset
+-> Dataset
 The project uses the Banking Transactions Dataset from Kaggle. The dataset is downloaded automatically using KaggleHub. The workflow focuses on the card transactions data, which contains useful transaction-related features such as:
 - transaction amount
 - merchant category
@@ -23,14 +23,14 @@ The project uses the Banking Transactions Dataset from Kaggle. The dataset is do
 
 The target variable used for the classification task is the fraud indicator column.
 
-## Why This Project Is Important
+-> Why This Project Is Important
 Fraud detection is one of the most valuable applications of machine learning in banking and finance. By identifying suspicious patterns in transactions, financial institutions can:
 - prevent fraud more efficiently
 - reduce monetary losses
 - improve customer trust
 - strengthen security systems
 
-## Technologies and Libraries Used
+-> Technologies and Libraries Used
 The project is implemented using Python and the following libraries:
 - Python 3
 - pandas for data handling
@@ -39,7 +39,7 @@ The project is implemented using Python and the following libraries:
 - seaborn for data visualization
 - kagglehub for dataset download
 
-## Project Workflow
+-> Project Workflow
 The project follows the standard steps of a predictive modeling task:
 
 1. Dataset Selection
@@ -80,17 +80,17 @@ The project follows the standard steps of a predictive modeling task:
 9. Visualization
    - A confusion matrix was generated and saved as an image for better interpretation of the results.
 
-## Model Used
+-> Model Used
 The project uses the Random Forest Classifier.
 
-### Why Random Forest?
+-> Why Random Forest?
 Random Forest is widely used because it:
 - handles non-linear relationships well
 - reduces overfitting compared to a single decision tree
 - performs efficiently on tabular datasets
 - provides strong classification performance
 
-## Model Performance
+-> Model Performance
 The trained model achieved excellent results on the test dataset:
 - Accuracy: 0.9949
 - Precision: 0.9898
@@ -99,7 +99,7 @@ The trained model achieved excellent results on the test dataset:
 
 These metrics indicate that the model performed very well and was highly effective in distinguishing fraudulent and non-fraudulent transactions.
 
-## Output Files
+-> Output Files
 The project generates and stores the following outputs:
 - week2_predictive_modeling.py: main project script
 - test_week2_predictive_modeling.py: test file for verification
@@ -107,48 +107,48 @@ The project generates and stores the following outputs:
 - confusion_matrix.png: visualization of the model results
 - README.md: project documentation
 
-## How to Run the Project
-### 1. Clone or download the repository
+-> How to Run the Project
+-> 1. Clone or download the repository
 Download the repository to your local machine.
 
-### 2. Open the folder in VS Code or another Python editor
+-> 2. Open the folder in VS Code or another Python editor
 Navigate to the project directory.
 
-### 3. Create a virtual environment (recommended)
-```bash
+-> 3. Create a virtual environment (recommended)
+bash
 python -m venv .venv
 .venv\Scripts\activate
-```
 
-### 4. Install dependencies
-```bash
+
+-> 4. Install dependencies
+bash
 pip install -r requirements.txt
-```
 
-### 5. Run the main script
-```bash
+
+-> 5. Run the main script
+bash
 python week2_predictive_modeling.py
-```
 
-### 6. Run the test file
-```bash
+
+-> 6. Run the test file
+bash
 python -m unittest -q test_week2_predictive_modeling.py
-```
 
-## Project Structure
-```text
+
+-> Project Structure
+
 Data-Science-Internship-Week-2/
 ├── README.md
 ├── requirements.txt
 ├── week2_predictive_modeling.py
 ├── test_week2_predictive_modeling.py
 └── confusion_matrix.png
-```
 
-## Results and Conclusion
+
+-> Results and Conclusion
 This project successfully demonstrates the complete process of building a predictive model using machine learning. The Random Forest model produced strong and reliable results for fraud detection on the banking dataset.
 
-### Conclusion
+-> Conclusion
 - The project was successfully implemented.
 - The model showed excellent performance.
 - The workflow demonstrates how machine learning can be applied to real-world financial data.
@@ -158,10 +158,7 @@ This project successfully demonstrates the complete process of building a predic
   - using a larger dataset
   - adding a ROC curve for deeper evaluation
 
-## Summary
-<<<<<<< HEAD
+-> Summary
 This project is a complete example of predictive modeling using machine learning for fraud detection in the banking domain.
->>>>>>> e6455de (Initial commit for Data Science Internship Week-2)
-=======
+
 This repository is a complete example of predictive modeling in data science, focusing on fraud detection in banking transactions. It highlights the practical use of machine learning for solving a real-world classification problem with high accuracy and strong evaluation metrics.
->>>>>>> ddd1d3e (Improve README with professional project documentation)
